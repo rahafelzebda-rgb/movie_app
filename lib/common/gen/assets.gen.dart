@@ -27,15 +27,38 @@ class $AssetsIconsGen {
   /// File path: assets/icons/email.svg
   SvgGenImage get email => const SvgGenImage('assets/icons/email.svg');
 
+  /// File path: assets/icons/google.svg
+  SvgGenImage get google => const SvgGenImage('assets/icons/google.svg');
+
+  /// File path: assets/icons/name.svg
+  SvgGenImage get name => const SvgGenImage('assets/icons/name.svg');
+
+  /// File path: assets/icons/password.svg
+  SvgGenImage get password => const SvgGenImage('assets/icons/password.svg');
+
+  /// File path: assets/icons/phone.svg
+  SvgGenImage get phone => const SvgGenImage('assets/icons/phone.svg');
+
   /// List of all assets
-  List<SvgGenImage> get values => [email];
+  List<SvgGenImage> get values => [email, google, name, password, phone];
 }
 
 class $AssetsImagesGen {
   const $AssetsImagesGen();
 
+  /// File path: assets/images/Forgot password.png
+  AssetGenImage get forgotPassword =>
+      const AssetGenImage('assets/images/Forgot password.png');
+
   /// File path: assets/images/app_logo.svg
   SvgGenImage get appLogo => const SvgGenImage('assets/images/app_logo.svg');
+
+  /// File path: assets/images/egypt_flag.png
+  AssetGenImage get egyptFlag =>
+      const AssetGenImage('assets/images/egypt_flag.png');
+
+  /// File path: assets/images/google.png
+  AssetGenImage get google => const AssetGenImage('assets/images/google.png');
 
   /// File path: assets/images/logo.png
   AssetGenImage get logo => const AssetGenImage('assets/images/logo.png');
@@ -64,12 +87,30 @@ class $AssetsImagesGen {
   AssetGenImage get onbording6 =>
       const AssetGenImage('assets/images/onbording6.png');
 
+  /// File path: assets/images/photo_gamer1.png
+  AssetGenImage get photoGamer1 =>
+      const AssetGenImage('assets/images/photo_gamer1.png');
+
+  /// File path: assets/images/photo_gamer2.png
+  AssetGenImage get photoGamer2 =>
+      const AssetGenImage('assets/images/photo_gamer2.png');
+
+  /// File path: assets/images/photo_gamer3.png
+  AssetGenImage get photoGamer3 =>
+      const AssetGenImage('assets/images/photo_gamer3.png');
+
   /// File path: assets/images/route.png
   AssetGenImage get route => const AssetGenImage('assets/images/route.png');
 
+  /// File path: assets/images/us_flag.png
+  AssetGenImage get usFlag => const AssetGenImage('assets/images/us_flag.png');
+
   /// List of all assets
   List<dynamic> get values => [
+    forgotPassword,
     appLogo,
+    egyptFlag,
+    google,
     logo,
     onbording1,
     onbording2,
@@ -77,7 +118,11 @@ class $AssetsImagesGen {
     onbording4,
     onbording5,
     onbording6,
+    photoGamer1,
+    photoGamer2,
+    photoGamer3,
     route,
+    usFlag,
   ];
 }
 

@@ -5,7 +5,7 @@ import 'package:movie_app/common/widgets/secondary_buttom.dart';
 import 'package:movie_app/screens/onboarding/onbording_data.dart';
 import 'package:movie_app/screens/onboarding/onbording_item.dart';
 
-class OnboardingScreen extends StatefulWidgflutter pub getet {
+class OnboardingScreen extends StatefulWidget {
   const OnboardingScreen({super.key});
 
   @override

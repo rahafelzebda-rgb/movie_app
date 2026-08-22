@@ -31,23 +31,23 @@ class _RegisterScreenState extends State<RegisterScreen> {
               key: _formkey,
               child: ListView(
                 children: [
-                  Row(
-                    children: [
-                      Assets.images.photoGamer1.image(height: 94, width: 94),
-                      Row(
-                        crossAxisAlignment: CrossAxisAlignment.center,
-                        children: [
-                          Padding(padding: EdgeInsets.all(10)),
-                          Assets.images.photoGamer2.image(
-                            height: 158,
-                            width: 161,
-                          ),
-                        ],
-                      ),
-                      Padding(padding: EdgeInsets.all(8)),
-                      Assets.images.photoGamer3.image(height: 94, width: 94),
-                    ],
+                  SingleChildScrollView(
+                    scrollDirection: Axis.horizontal,
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Assets.images.photoGamer1.image(height: 94, width: 94),
+                        const SizedBox(width: 10),
+                        Assets.images.photoGamer2.image(height: 158, width: 161),
+                        const SizedBox(width: 10),
+                        Assets.images.photoGamer3.image(height: 94, width: 94),
+                      ],
+                    ),
                   ),
+
+
+
+
                   Text(
                     "Avatar",
                     style: theme.textTheme.bodyLarge!.copyWith(
