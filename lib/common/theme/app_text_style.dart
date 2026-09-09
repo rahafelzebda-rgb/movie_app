@@ -81,4 +81,18 @@ class AppTextStyles {
     fontFamily: 'Poppins',
     
   );
+   static const TextStyle style24w700White=TextStyle(
+    fontSize: 24,
+    fontWeight: FontWeight.w700,
+    color: AppColors.white,
+    fontFamily: 'Poppins',
+    
+  );
+   static const TextStyle style16w400White=TextStyle(
+    fontSize: 16,
+    fontWeight: FontWeight.w400,
+    color: AppColors.white,
+    fontFamily: 'Poppins',
+    
+  );
 }
